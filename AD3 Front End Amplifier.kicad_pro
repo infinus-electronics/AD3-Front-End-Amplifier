@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.6
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -490,6 +490,14 @@
     [
       "9ac7c606-b6c4-44a9-a37a-81b4304cf499",
       ""
+    ],
+    [
+      "8c43e6d8-19db-4408-928e-545b4cb9ce2f",
+      "CH1"
+    ],
+    [
+      "945c961b-dd89-4094-9375-4427d09c7e83",
+      "CH2"
     ]
   ],
   "text_variables": {}

@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "XC6901")(type "KiCad")(uri "C:/Users/yehen/Downloads/LIB_XC6901D501MR-G/XC6901D501MR-G/KiCad/XC6901D501MR-G.kicad_sym")(options "")(descr ""))
+  (lib (name "TS12A4516")(type "KiCad")(uri "C:/Users/yehen/Downloads/LIB_TS12A4516DBVR/TS12A4516DBVR/KiCad/TS12A4516DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "SMS409F")(type "KiCad")(uri "C:/Users/yehen/Downloads/LIB_SMS-409F/SMS-409F/KiCad/SMS-409F.kicad_sym")(options "")(descr ""))
 )
