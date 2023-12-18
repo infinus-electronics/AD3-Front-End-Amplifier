@@ -1786,7 +1786,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 283.21 213.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00475a5b-1a0f-41c5-a1c2-f27cdc44ddf0)
-    (property "Reference" "R117" (at 283.21 207.01 90)
+    (property "Reference" "R101" (at 283.21 207.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "49.9" (at 283.21 209.55 90)
@@ -1806,7 +1806,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "R117") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -1815,7 +1815,7 @@
   (symbol (lib_id "power:-2V5") (at 360.68 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00c0268e-19cb-4256-a7b8-da9895933c98)
-    (property "Reference" "#PWR0142" (at 360.68 99.06 0)
+    (property "Reference" "#PWR0116" (at 360.68 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-2V5" (at 360.68 96.52 0)
@@ -1831,7 +1831,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -1840,7 +1840,7 @@
   (symbol (lib_id "power:GND") (at 290.83 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 027650dd-4faa-4434-b0d3-d88af6fd99e3)
-    (property "Reference" "#PWR0151" (at 290.83 173.99 0)
+    (property "Reference" "#PWR0103" (at 290.83 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 290.83 172.72 0)
@@ -1856,7 +1856,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1865,7 +1865,7 @@
   (symbol (lib_id "Device:C_Small") (at 308.61 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a7f36bd-3b50-4ece-b7b9-71c00e6627e2)
-    (property "Reference" "C118" (at 311.15 73.6663 0)
+    (property "Reference" "C106" (at 311.15 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 311.15 76.2 0)
@@ -1882,7 +1882,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C118") (unit 1)
+          (reference "C106") (unit 1)
         )
       )
     )
@@ -1891,7 +1891,7 @@
   (symbol (lib_id "Device:C_Small") (at 290.83 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e1603d4-3554-40eb-9b1c-43b80aca6ca1)
-    (property "Reference" "C121" (at 293.37 161.2963 0)
+    (property "Reference" "C101" (at 293.37 161.2963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 293.37 163.83 0)
@@ -1908,7 +1908,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C121") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -1917,7 +1917,7 @@
   (symbol (lib_id "power:GND") (at 304.8 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fcc54c5-86d9-47da-8c70-3740f94f7b00)
-    (property "Reference" "#PWR0150" (at 304.8 173.99 0)
+    (property "Reference" "#PWR0106" (at 304.8 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 172.72 0)
@@ -1933,7 +1933,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -1942,7 +1942,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Socket") (at 347.98 215.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11d11a07-0b5e-4f97-8413-9ccaff2789fd)
-    (property "Reference" "J108" (at 350.52 194.31 0)
+    (property "Reference" "J106" (at 350.52 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x15_Socket" (at 348.615 195.58 0)
@@ -1972,7 +1972,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "J108") (unit 1)
+          (reference "J106") (unit 1)
         )
       )
     )
@@ -1981,7 +1981,7 @@
   (symbol (lib_id "power:GND") (at 318.77 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 182be515-0e2d-48f4-8fb3-06e006ac13c0)
-    (property "Reference" "#PWR0134" (at 318.77 90.17 0)
+    (property "Reference" "#PWR0108" (at 318.77 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 318.77 88.9 0)
@@ -1997,7 +1997,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -2006,7 +2006,7 @@
   (symbol (lib_id "power:GND") (at 320.04 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36443b4f-e987-4212-b4d3-71030397e9d6)
-    (property "Reference" "#PWR0135" (at 320.04 168.91 0)
+    (property "Reference" "#PWR0109" (at 320.04 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.04 167.64 0)
@@ -2022,7 +2022,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -2031,7 +2031,7 @@
   (symbol (lib_id "power:GND") (at 266.7 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 380c5265-0e4b-43cd-9c07-1560aa4cd473)
-    (property "Reference" "#PWR0131" (at 266.7 227.33 0)
+    (property "Reference" "#PWR0101" (at 266.7 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 226.06 0)
@@ -2047,7 +2047,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2056,7 +2056,7 @@
   (symbol (lib_id "Device:C_Small") (at 304.8 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45f1aa74-73c4-411d-8a48-8c9f97ad2e54)
-    (property "Reference" "C124" (at 307.34 181.6163 0)
+    (property "Reference" "C104" (at 307.34 181.6163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 307.34 184.15 0)
@@ -2073,7 +2073,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C124") (unit 1)
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -2082,7 +2082,7 @@
   (symbol (lib_id "Regulator_Linear:MIC5504-1.8YM5") (at 341.63 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b39c594-5250-447d-9305-325fd3bfadf7)
-    (property "Reference" "U105" (at 341.63 59.69 0)
+    (property "Reference" "U101" (at 341.63 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIC5504-2.5YM5" (at 341.63 62.23 0)
@@ -2102,7 +2102,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "U105") (unit 1)
+          (reference "U101") (unit 1)
         )
       )
     )
@@ -2111,7 +2111,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 283.21 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d6fb811-f086-4489-8e2f-83f140754716)
-    (property "Reference" "R118" (at 283.21 226.06 90)
+    (property "Reference" "R102" (at 283.21 226.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "49.9" (at 283.21 228.6 90)
@@ -2131,7 +2131,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "R118") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -2140,7 +2140,7 @@
   (symbol (lib_id "Device:C_Small") (at 304.8 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56596b7e-a75e-4cf2-96c5-4138f8def0a7)
-    (property "Reference" "C122" (at 307.34 161.2963 0)
+    (property "Reference" "C103" (at 307.34 161.2963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 307.34 163.83 0)
@@ -2157,7 +2157,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C122") (unit 1)
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -2166,7 +2166,7 @@
   (symbol (lib_id "Device:C_Small") (at 358.14 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60f5594e-9adf-4414-826d-b93bf3f42302)
-    (property "Reference" "C119" (at 360.68 73.6663 0)
+    (property "Reference" "C107" (at 360.68 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 360.68 76.2 0)
@@ -2186,7 +2186,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C119") (unit 1)
+          (reference "C107") (unit 1)
         )
       )
     )
@@ -2224,7 +2224,7 @@
   (symbol (lib_id "power:GND") (at 298.45 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68930c7d-ae23-40cf-829e-861f119ccd96)
-    (property "Reference" "#PWR0133" (at 298.45 106.68 0)
+    (property "Reference" "#PWR0105" (at 298.45 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 298.45 105.41 0)
@@ -2240,7 +2240,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -2249,7 +2249,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 266.7 232.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68ac3f54-10fa-4775-8982-2c6ae11d73af)
-    (property "Reference" "J104" (at 266.7 226.06 0)
+    (property "Reference" "J102" (at 266.7 226.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "W2" (at 267.0174 228.6 0)
@@ -2269,7 +2269,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "J104") (unit 1)
+          (reference "J102") (unit 1)
         )
       )
     )
@@ -2278,7 +2278,7 @@
   (symbol (lib_id "power:GND") (at 320.04 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a3d25ca-7c48-417c-b7c1-4f4c3ab16828)
-    (property "Reference" "#PWR0136" (at 320.04 176.53 0)
+    (property "Reference" "#PWR0110" (at 320.04 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.04 175.26 0)
@@ -2294,7 +2294,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -2303,7 +2303,7 @@
   (symbol (lib_id "power:GND") (at 372.11 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d9474f0-7415-4fa8-8ce9-84d11f629b7d)
-    (property "Reference" "#PWR0144" (at 372.11 168.91 0)
+    (property "Reference" "#PWR0118" (at 372.11 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 372.11 167.64 0)
@@ -2319,7 +2319,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -2328,7 +2328,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Pin") (at 347.98 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ef16820-263e-480b-b1a7-47c760d217fa)
-    (property "Reference" "J107" (at 349.25 151.13 0)
+    (property "Reference" "J105" (at 349.25 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x15_Pin" (at 348.615 152.4 0)
@@ -2358,7 +2358,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "J107") (unit 1)
+          (reference "J105") (unit 1)
         )
       )
     )
@@ -2367,7 +2367,7 @@
   (symbol (lib_id "power:GND") (at 358.14 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83419fe7-d0a5-43a3-8cee-2d8399f490f3)
-    (property "Reference" "#PWR0141" (at 358.14 90.17 0)
+    (property "Reference" "#PWR0115" (at 358.14 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.14 88.9 0)
@@ -2383,7 +2383,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -2392,7 +2392,7 @@
   (symbol (lib_id "Device:C_Small") (at 360.68 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83a8ffc4-ce08-4d93-8a92-89e53327317b)
-    (property "Reference" "C120" (at 363.22 106.6863 0)
+    (property "Reference" "C108" (at 363.22 106.6863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 363.22 109.22 0)
@@ -2412,7 +2412,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C120") (unit 1)
+          (reference "C108") (unit 1)
         )
       )
     )
@@ -2421,7 +2421,7 @@
   (symbol (lib_id "power:GND") (at 372.11 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 883c009b-8a80-4acd-925a-46b475284965)
-    (property "Reference" "#PWR0146" (at 372.11 210.82 0)
+    (property "Reference" "#PWR0120" (at 372.11 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 372.11 209.55 0)
@@ -2437,7 +2437,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -2446,7 +2446,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Pin") (at 344.17 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d3be509-a857-4bc5-92f1-f2a36da5e0b8)
-    (property "Reference" "J105" (at 340.36 151.13 0)
+    (property "Reference" "J103" (at 340.36 151.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x15_Pin" (at 345.44 173.99 0)
@@ -2476,7 +2476,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "J105") (unit 1)
+          (reference "J103") (unit 1)
         )
       )
     )
@@ -2514,7 +2514,7 @@
   (symbol (lib_id "power:GND") (at 372.11 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97f2050a-70e2-4363-a333-b518927983f3)
-    (property "Reference" "#PWR0145" (at 372.11 176.53 0)
+    (property "Reference" "#PWR0119" (at 372.11 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 372.11 175.26 0)
@@ -2530,7 +2530,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -2539,7 +2539,7 @@
   (symbol (lib_id "XC6901:XC6901D501MR-G") (at 326.39 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9824221c-51ab-4477-95b0-850c54a9cd04)
-    (property "Reference" "IC103" (at 341.63 93.98 0)
+    (property "Reference" "IC101" (at 341.63 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XC6901D501MR-G" (at 341.63 96.52 0)
@@ -2574,7 +2574,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "IC103") (unit 1)
+          (reference "IC101") (unit 1)
         )
       )
     )
@@ -2583,7 +2583,7 @@
   (symbol (lib_id "Device:C_Small") (at 306.07 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99c629c7-bc8f-4d8a-ad16-63596389e9a6)
-    (property "Reference" "C117" (at 308.61 99.0663 0)
+    (property "Reference" "C105" (at 308.61 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 308.61 101.6 0)
@@ -2600,7 +2600,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C117") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -2609,7 +2609,7 @@
   (symbol (lib_id "power:GND") (at 290.83 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c03276d-e56a-43a0-8b45-4838dacf5a38)
-    (property "Reference" "#PWR0152" (at 290.83 194.31 0)
+    (property "Reference" "#PWR0104" (at 290.83 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 290.83 193.04 0)
@@ -2625,7 +2625,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -2634,7 +2634,7 @@
   (symbol (lib_id "Device:C_Small") (at 290.83 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c479d36-480c-4044-a962-6e9c628ef77b)
-    (property "Reference" "C123" (at 293.37 181.6163 0)
+    (property "Reference" "C102" (at 293.37 181.6163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 293.37 184.15 0)
@@ -2651,7 +2651,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "C123") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -2660,7 +2660,7 @@
   (symbol (lib_id "power:GND") (at 266.7 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d916bda-4b92-44fa-966b-3b42e4e2e361)
-    (property "Reference" "#PWR0132" (at 266.7 246.38 0)
+    (property "Reference" "#PWR0102" (at 266.7 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 245.11 0)
@@ -2676,7 +2676,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2685,7 +2685,7 @@
   (symbol (lib_id "power:GND") (at 360.68 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad885cd0-b511-46b7-b969-6dc493cd747f)
-    (property "Reference" "#PWR0143" (at 360.68 118.11 0)
+    (property "Reference" "#PWR0117" (at 360.68 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 360.68 116.84 0)
@@ -2701,7 +2701,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -2710,7 +2710,7 @@
   (symbol (lib_id "power:GND") (at 304.8 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b71074a6-3763-463e-9dd9-cf51f525921e)
-    (property "Reference" "#PWR0153" (at 304.8 194.31 0)
+    (property "Reference" "#PWR0107" (at 304.8 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 193.04 0)
@@ -2726,7 +2726,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -2735,7 +2735,7 @@
   (symbol (lib_id "power:GND") (at 372.11 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7e607be-5e08-47f8-b095-d844aae37dac)
-    (property "Reference" "#PWR0147" (at 372.11 218.44 0)
+    (property "Reference" "#PWR0121" (at 372.11 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 372.11 217.17 0)
@@ -2751,7 +2751,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -2760,7 +2760,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Socket") (at 344.17 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9af5a01-40db-4bf3-b1b1-4d3cba324278)
-    (property "Reference" "J106" (at 339.09 194.31 0)
+    (property "Reference" "J104" (at 339.09 194.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x15_Socket" (at 345.44 217.17 0)
@@ -2790,7 +2790,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "J106") (unit 1)
+          (reference "J104") (unit 1)
         )
       )
     )
@@ -2799,7 +2799,7 @@
   (symbol (lib_id "power:+2V5") (at 358.14 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d819053f-6496-499d-b33b-7e4c53d2903f)
-    (property "Reference" "#PWR0140" (at 358.14 67.31 0)
+    (property "Reference" "#PWR0114" (at 358.14 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 358.14 58.42 0)
@@ -2815,7 +2815,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -2824,7 +2824,7 @@
   (symbol (lib_id "power:GND") (at 320.04 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1c4eeac-21a1-405f-8821-0ac18544de3e)
-    (property "Reference" "#PWR0137" (at 320.04 210.82 0)
+    (property "Reference" "#PWR0111" (at 320.04 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.04 209.55 0)
@@ -2840,7 +2840,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -2849,7 +2849,7 @@
   (symbol (lib_id "power:GND") (at 320.04 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef9800d6-e034-47db-a758-7d1ca9d1d48e)
-    (property "Reference" "#PWR0138" (at 320.04 218.44 0)
+    (property "Reference" "#PWR0112" (at 320.04 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.04 217.17 0)
@@ -2865,7 +2865,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -2874,7 +2874,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 266.7 213.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc3c6862-9ce6-4fa3-ba68-0289ea431b89)
-    (property "Reference" "J103" (at 266.7 207.01 0)
+    (property "Reference" "J101" (at 266.7 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "W1" (at 267.0174 209.55 0)
@@ -2894,7 +2894,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "J103") (unit 1)
+          (reference "J101") (unit 1)
         )
       )
     )
@@ -2903,7 +2903,7 @@
   (symbol (lib_id "power:GND") (at 341.63 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe77ff14-f8e9-497b-926c-ec74f66f98d2)
-    (property "Reference" "#PWR0139" (at 341.63 90.17 0)
+    (property "Reference" "#PWR0113" (at 341.63 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 341.63 88.9 0)
@@ -2919,7 +2919,7 @@
     (instances
       (project "AD3 Front End Amplifier"
         (path "/9ac7c606-b6c4-44a9-a37a-81b4304cf499"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -2928,7 +2928,7 @@
   (sheet (at 125.73 106.68) (size 20.32 10.16) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
-    (uuid 8c43e6d8-19db-4408-928e-545b4cb9ce2f)
+    (uuid 201ab37e-dba2-4bc7-be1e-9a5dcf71f665)
     (property "Sheetname" "CH1" (at 125.73 105.9684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -2937,11 +2937,11 @@
     )
     (pin "OUT-" input (at 146.05 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 49e9aa4a-37f9-4c72-b07c-6caae419a3f8)
+      (uuid 8e866710-3616-4651-ab46-831348567dd8)
     )
     (pin "OUT+" input (at 146.05 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c23515e9-fe85-49b1-bca0-0287c4c49cab)
+      (uuid 0b911a92-1346-4836-977c-500e25b51d47)
     )
     (instances
       (project "AD3 Front End Amplifier"

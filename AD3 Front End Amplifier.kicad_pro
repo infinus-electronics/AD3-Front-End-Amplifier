@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 7.0,
-          "width": 3.5
+          "drill": 0.0,
+          "height": 5.14,
+          "width": 0.99
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -65,7 +65,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -492,7 +492,7 @@
       ""
     ],
     [
-      "8c43e6d8-19db-4408-928e-545b4cb9ce2f",
+      "201ab37e-dba2-4bc7-be1e-9a5dcf71f665",
       "CH1"
     ],
     [
