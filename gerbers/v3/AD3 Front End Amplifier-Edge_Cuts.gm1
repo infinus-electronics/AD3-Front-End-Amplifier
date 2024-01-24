@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*
+G04 #@! TF.CreationDate,2023-12-28T09:15:15+02:00*
+G04 #@! TF.ProjectId,AD3 Front End Amplifier,41443320-4672-46f6-9e74-20456e642041,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-12-28 09:15:15*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X174892000Y-62230000D02*
+X251270000Y-62230000D01*
+X251270000Y-136830000D01*
+X174892000Y-136830000D01*
+X174892000Y-62230000D01*
+M02*
